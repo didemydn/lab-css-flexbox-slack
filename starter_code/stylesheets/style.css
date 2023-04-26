@@ -8,3 +8,775 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: #540B51;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .nav-buttons {
+        background-color: transparent;
+        border: none;
+    }
+    
+    #slacklogo {
+        display: flex;
+        width: 100px;
+        margin-left: 20px;
+        
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+                  
+    }
+
+    .navmenu {
+        list-style-type: none;
+        display: none;
+    }
+   
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    #menulogo {
+        margin-left: 20px;
+        background-color: transparent;
+    }
+
+    .head {
+        color: white;
+        text-align: center;
+        margin-inline: 60px;
+    }
+
+    .para {
+        color:  #ECB12F;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .paraspan {
+        color:#000000;
+
+    }
+
+    .signup {
+        display: flex;
+        justify-content: center;
+        flex-direction: column ;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .email {
+        color: #540B51;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-inline: 20px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .google {
+        background-color: #4285F4;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px ;
+        text-transform: uppercase;
+        margin-inline: 20px;
+        font-size: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .googlelogo {
+        width: 20px;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .googlespan {
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+
+    
+
+    .slackapppic {
+        width: 400px;
+        display: flex;
+        margin-left: 50px;
+    }
+    .connectedness-mobile{
+        width: 350px;
+    }
+
+    .mainsec {
+        background-color: #F3EAE2;
+        margin-top: 0px;
+    }
+
+    .mainpara {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    .logofirst {
+        display: flex;
+        justify-content: center; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0px;
+    }
+    .logosecond {
+        display: flex;
+        justify-content: center; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+    .logo {
+        width: 20%;
+        height: 20%;
+        display: flex;
+    }
+
+    .air{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .nasa {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .uber {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .tar {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 30px;
+    }
+
+    .nyt {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 150px;
+
+    }
+
+    .spo {
+
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 100px;
+    }
+    .secpara {
+        text-align:left;
+        font-size: medium;
+        margin-inline: 10px;
+    }
+
+    .sechead {
+        text-align:left;
+        margin-inline: 10px;
+    }
+
+    .link {
+        margin-left: 10px;
+        font-size: smaller;
+        color: #2E71A6;
+        text-decoration: none;
+    }
+
+    .third {
+        background-color: white;
+    }
+
+    .secthreehead {
+        text-align: center;
+        padding-top: 20px;
+        margin-inline: 100px;
+    }
+
+    .secthreepara {
+        text-align: center;
+        margin-inline: 20px;
+    }
+
+    .thirdbuttons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-inline: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    .enter {
+        background-color: #540B51;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-inline: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .talk {
+        color: #540B51;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-inline: 20px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .percentages {
+        text-align: center;
+        list-style: none;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .per {
+        color: #540B51;
+        font-size: 40px;
+
+    }
+
+    .perpara {
+        margin-inline: 70px;
+
+    }
+
+    .sectionforth {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #540B51;
+        padding-top: 0px;
+
+    }
+
+    .forthhead{
+        text-align: center;
+        margin-inline: 80px;
+        color: white;
+        font-size: larger;
+         
+    }
+
+    .footer {
+        background-color: white;
+    }
+
+    .slacklogolast {
+        width: 30px;
+        margin: 25px;
+    }
+
+    .columns {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 10px;
+        margin-inline: 10px;
+        border-bottom: grey;
+        border-width: 20px;
+    }
+
+    .footerlist {
+        list-style-type: none;
+        padding-left: 10px;    
+    }
+
+    .listhead {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .items {
+        margin-bottom: 20px;
+        margin-top: ;
+        margin-left: 30pxpx;
+        margin-right: ;
+    }
+
+    .lastlist {
+        list-style-type: none;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px              
+    }
+
+    .lastlistitems {
+        margin-bottom: 20px;
+    }
+
+    .lastlogos {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 20x;
+    }
+
+    .lastcopy {
+        padding-left: 10px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    body{
+        background-color: #540B51;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+   .nav-buttons {
+        background-color: transparent;
+        border: none;
+    }
+    
+    #slacklogo {
+        display: flex;
+        width: 100px;
+        margin-left: 20px;
+        
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+                  
+    }
+
+    .navmenu {
+        list-style-type: none;
+        display: none;
+    }
+   
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    #menulogo {
+        margin-left: 20px;
+        background-color: transparent;
+    }
+
+    .head {
+        color: white;
+        text-align: left;
+        margin-left: 60px;
+        margin-right: 450px;
+        font-size: 70px;
+    }
+
+    .para {
+        color:  #ECB12F;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 60px;
+        font-size: 20px;
+
+    }
+
+    .paraspan {
+        color:white;
+
+    }
+
+    .signup {
+        display: flex;
+        justify-content: start;
+        flex-direction: column ;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .email {
+        color: #540B51;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 450px;
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .google {
+        background-color: #4285F4;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px ;
+        text-transform: uppercase;
+        margin-right: 450px;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .googlelogo {
+        width: 20px;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .googlespan {
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+
+    .slackapppic {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    .connectedness-mobile{
+        width: 350px;
+    }
+
+    .mainsec {
+        background-color: #F3EAE2;
+        margin-top: 0px;
+        
+    }
+
+    .mainpara {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    .logofirst {
+        display: flex;
+        justify-content: flex-start;         
+        padding-left: 20px;
+        float: left;
+        margin-right: 0px;
+        align-items: center;
+        width: 400px;
+    }
+
+    .logosecond {
+        display: flex;
+        justify-content: start; 
+        margin-left: 0px;
+        text-align: center;
+        padding-right: 80px;
+        padding-bottom: 30px;                
+    }
+
+    .logo {
+        width: 20%;
+        height: 20%;
+        display: flex;
+    }
+
+    .air{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .nasa {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .uber {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .tar {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 30px;
+    }
+
+    .nyt {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 150px;
+
+    }
+
+    .spo {
+
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 100px;
+    }
+
+    .connectedness-mobile {
+        width: 500px;
+        height: 400px;
+    }
+
+    .two {
+        display: flex;
+        justify-content: end;
+        margin-right: 0px;
+        margin-left: 300px
+    }
+
+    
+    .secpara {
+        text-align:left;
+        font-size: medium;
+        margin-left: 100px;
+        margin-right: 300px;
+    }
+
+    .sechead {
+        text-align:left;
+        margin-inline: 100px;
+    }
+
+    .link {
+        margin-left: 10px;
+        font-size: smaller;
+        color: #2E71A6;
+        text-decoration: none;
+        margin-left: 100px;
+        margin-right: 300px;
+    }
+
+    .third {
+        background-color: white;
+    }
+
+    .secthreehead {
+        text-align: center;
+        padding-top: 40px;
+        margin-inline: 100px;
+        font-size: 30px;
+    }
+
+    .secthreepara {
+        text-align: center;
+        margin-inline: 20px;
+    }
+
+    .thirdbuttons {
+        display: flex;
+        justify-content:center
+                      
+    }
+
+    .enter {
+        background-color: #540B51;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 40px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-inline:20px;
+    }
+    .talk {
+        color: #540B51;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 10px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-inline:20px;
+    }
+
+    .percentages {
+        text-align: center;
+        list-style: none;
+        font-weight: bold;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .per {
+        color: #540B51;
+        font-size: 40px;
+
+    }
+
+    .perpara {
+        margin-inline: 70px;
+
+    }
+
+    .sectionforth {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #540B51;
+        padding-top: 0px;
+        padding-bottom: 40px;
+
+    }
+
+    .forthhead{
+        text-align: center;
+        margin-inline: 80px;
+        color: white;
+        font-size: 30px;
+         
+    }
+
+    .footer {
+        background-color: white;
+    }
+
+    .slacklogolast {
+        width: 40px;
+        margin: 35px;
+    }
+
+    .columns {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 15px;
+        margin-inline: 10px;
+        border-bottom: grey;
+        border-width: 20px;
+    }
+
+    .footerlist {
+        list-style-type: none;
+        padding-left: 10px;    
+    }
+
+    .listhead {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .items {
+        margin-bottom: 20px;
+        margin-top: ;
+        margin-left: 30pxpx;
+        margin-right: ;
+    }
+
+    
+    .lastlist {
+        list-style-type: none;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px 
+         
+                   
+    }
+
+    .lastlistitems {
+        margin-bottom: 20px;
+        display: inline;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+
+    .lastlogos {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 20x;
+    }
+
+    .lastcopy {
+        padding-left: 10px
+    }
